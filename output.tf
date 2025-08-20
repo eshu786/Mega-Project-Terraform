@@ -1,9 +1,9 @@
 output "cluster_id" {
-  value = aws_eks_cluster.devopsshack.id
+  value = aws_eks_cluster.devopsshack_prod.id
 }
 
 output "node_group_id" {
-  value = aws_eks_node_group.devopsshack.id
+  value = aws_eks_node_group.devopsshack_prod.id
 }
 
 output "vpc_id" {
